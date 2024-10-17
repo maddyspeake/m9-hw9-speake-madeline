@@ -144,8 +144,12 @@ footer {
     margin-right: 0;
   }
 
+  nav > a:not(:first-of-type){
+    margin-left: 0;
+  }
+
   main article{
-    padding: 0;
+    padding: 5px;
   }
 
   section.hero > .call-to-action {
@@ -156,10 +160,10 @@ footer {
     float: none;
     display: flex;
     align-items: center;
-    margin: 50px;
+    margin: 0 auto;
   }
 
-  main > section.hero, main article {
+  main > section.hero, main article, main p, h1 {
     margin-bottom: 0;
   }
 }
